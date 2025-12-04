@@ -1,4 +1,5 @@
-import config   
+import config
+
 
 def validate_entry(entry):
     if not isinstance(entry, str):

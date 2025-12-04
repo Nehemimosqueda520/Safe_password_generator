@@ -1,4 +1,5 @@
-#make main file to run password generator from cli
+# make main file to run password generator from cli
 from cli import main
-main()
 
+if __name__ == "__main__":
+    main()
