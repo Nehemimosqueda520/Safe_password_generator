@@ -1,0 +1,8 @@
+# make config of a password generator
+DEFAULT_PASSWORD_LENGTH = 15
+DEFAULT_USE_UPPERCASE = True
+DEFAULT_USE_DIGITS = True
+DEFAULT_USE_SPECIAL_CHARS = True
+MIN_PASSWORD_LENGTH = 10
+INVALID_CHARACTERS = ['$', '%', '#', '<', '>']
+
