@@ -8,6 +8,7 @@ from config import (
 )
 
 
+
 def main():
     parser = argparse.ArgumentParser(description="Generate a secure password.")
     parser.add_argument(
@@ -47,4 +48,4 @@ def main():
         use_digits=args.use_digits,
         use_special_chars=args.use_special_chars,
     )
-    print("Generated Password:", password)
+    print("Generated Password:", f'"{password}"')
