@@ -4,4 +4,4 @@ DEFAULT_USE_UPPERCASE = True
 DEFAULT_USE_DIGITS = True
 DEFAULT_USE_SPECIAL_CHARS = True
 MIN_PASSWORD_LENGTH = 10
-INVALID_CHARACTERS = ["$", "%", "#", "<", ">"]
+INVALID_CHARACTERS = ["$", "%", "#", "<", ">", "(", ")", "|"]
