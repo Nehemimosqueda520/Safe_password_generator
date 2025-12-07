@@ -24,11 +24,11 @@ Simple Tkinter desktop app to generate secure passwords based on user-selected o
 
 Install optional dependencies (formatting/binary helpers) with:
 ```bash
-pip install -r requirements.txt
+python -m pip install -r requirements.txt
 ```
 Windows:
 ```powershell
-pip install -r requirements.txt
+py -m pip install -r requirements.txt
 ```
 
 ## Run the app
@@ -38,7 +38,7 @@ python src/main.py
 ```
 Windows (PowerShell or cmd):
 ```powershell
-python src/main.py
+py src/main.py
 ```
 
 Choose your options, click **Generate Password**, and the password will be copied to the clipboard.
