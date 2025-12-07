@@ -1,5 +1,5 @@
-# make main file to run password generator from cli
-from cli import main
+from cli import PasswordGeneratorApp
 
 if __name__ == "__main__":
-    main()
+    app = PasswordGeneratorApp()
+    app.mainloop()

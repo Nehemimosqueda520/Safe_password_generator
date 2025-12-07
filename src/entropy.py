@@ -1,7 +1,5 @@
-# calculate entropy of a given data set (password generator)
 import math
 from password_generator import generate_password
-
 
 def calculate_entropy(data):
     if not data:
@@ -17,6 +15,3 @@ def calculate_entropy(data):
         p_x = freq / data_length
         entropy -= p_x * math.log2(p_x)
     return entropy
-
-
-# Example usage

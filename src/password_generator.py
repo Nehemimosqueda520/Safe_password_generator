@@ -3,7 +3,6 @@ import string
 from validators import validate_entry
 import config
 
-
 def generate_password(length, use_uppercase, use_digits, use_special_chars):
     character_pool = string.ascii_lowercase
 
