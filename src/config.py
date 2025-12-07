@@ -1,4 +1,3 @@
-# make config of a password generator
 DEFAULT_PASSWORD_LENGTH = 15
 DEFAULT_USE_UPPERCASE = True
 DEFAULT_USE_DIGITS = True
