@@ -23,6 +23,8 @@ class PasswordGeneratorApp(tk.Tk):
         self.ACCENT_HOVER = "#DB1A1A"
         self.TEXT_MAIN  = "#DAB5AA"   
         self.TEXT_MUTED = "#6e99df"  
+        
+        
 
         # Fondo de la ventana
         self.configure(bg=self.PRIMARY_BG)
